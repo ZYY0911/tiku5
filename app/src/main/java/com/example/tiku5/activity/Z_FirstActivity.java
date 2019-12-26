@@ -52,6 +52,30 @@ public class Z_FirstActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 Class myClass = null;
                 switch (menuItem.getItemId()) {
+                    case R.id.yjfk:
+                        myClass = S_YJFKActivity.class;
+                        break;
+                    case R.id.wlsz:
+                        myClass = S_WLSZActivity.class;
+                        break;
+                    case R.id.etc:
+                        myClass = S_GSETCActivity.class;
+                        break;
+                    case R.id.sjfx:
+                        myClass = S_SJFXActivity.class;
+                        break;
+                    case R.id.lxdt:
+                        myClass = S_LXDTActivity.class;
+                        break;
+                    case R.id.ssjt:
+                        myClass = S_SSJTActivity.class;
+                        break;
+                    case R.id.wzfx:
+                        myClass = S_WZLXFXActivity.class;
+                        break;
+                    case R.id.grzx:
+                        myClass = S_ZHSZActivity.class;
+                        break;
                     case R.id.first:
                         myClass = Z_SSHJActivity.class;
                         break;

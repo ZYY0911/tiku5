@@ -36,11 +36,11 @@ public class S_ZHSZActivity extends AppCompatActivity {
         setContentView(R.layout.s_zhszactivity);
         ButterKnife.bind(this);
         inview();
-        if (AppClient.getYz().equals(""))
+        if (AppClient.getYz().equals("0"))
         {
             tishi.setText("1-4号车没有设置告警阈值！");
         }else {
-            tishi.setText("4号车账户余额告警阈值为"+AppClient.getYz()+"元");
+            tishi.setText("1-4号车账户余额告警阈值为"+AppClient.getYz()+"元");
         }
         setdianji();
     }

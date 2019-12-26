@@ -135,7 +135,7 @@ public class S_DLActivity extends AppCompatActivity {
 
     private void inview() {
         if (!AppClient.getUserName1().equals("")) {
-            startActivity(new Intent(S_DLActivity.this, S_ZJMActivity.class));
+            startActivity(new Intent(S_DLActivity.this, Z_FirstActivity.class));
         }
     }
 
@@ -153,7 +153,7 @@ public class S_DLActivity extends AppCompatActivity {
                                 JSONObject jsonObject1 = jsonArray.getJSONObject(i);
                                 if (jsonObject1.getString("username").equals(y) && jsonObject1.getString("password").equals(m)) {
                                     Toast.makeText(S_DLActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
-                                    startActivity(new Intent(S_DLActivity.this, S_ZJMActivity.class));
+                                    startActivity(new Intent(S_DLActivity.this, Z_FirstActivity.class));
                                     AppClient.setPassWord(m);
                                     AppClient.setUserName1(y);
                                     AppClient.setSex(y);
@@ -167,7 +167,7 @@ public class S_DLActivity extends AppCompatActivity {
                                 Yhzc yhzc = yhzcs.get(i);
                                 if (yhzc.getYhm().equals(y) && yhzc.getMm().equals(m)) {
                                     Toast.makeText(S_DLActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
-                                    startActivity(new Intent(S_DLActivity.this, S_ZJMActivity.class));
+                                    startActivity(new Intent(S_DLActivity.this, Z_FirstActivity.class));
                                     AppClient.setPassWord(m);
                                     AppClient.setUserName1(y);
                                     AppClient.setSex(y);

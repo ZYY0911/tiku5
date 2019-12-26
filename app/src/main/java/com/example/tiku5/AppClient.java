@@ -92,7 +92,7 @@ public class AppClient extends Application {
     }
 
     public static String getYz(){
-        return preferences.getString("Yz","");
+        return preferences.getString("Yz","0");
     }
 
     public static void setSex(String Sex){

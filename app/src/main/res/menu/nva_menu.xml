@@ -3,20 +3,56 @@
     <group android:checkableBehavior="single" />
 
     <item
-        android:id="@+id/first"
+        android:id="@+id/yjfk"
         android:icon="@mipmap/apple"
-        android:title="实时环境" />
+        android:title="意见反馈" />
+    <item
+        android:id="@+id/wlsz"
+        android:icon="@mipmap/apple"
+        android:title="网络设置" />
+    <item
+        android:id="@+id/etc"
+        android:icon="@mipmap/apple"
+        android:title="高速ETC" />
+
+    <item
+        android:id="@+id/sjfx"
+        android:icon="@mipmap/apple"
+        android:title="数据分析" />
 
     <item
         android:id="@+id/second"
         android:icon="@mipmap/apple"
         android:title="红绿灯管理" />
     <item
+        android:id="@+id/lxdt"
+        android:icon="@mipmap/apple"
+        android:title="离线地图" />
+
+    <item
+        android:id="@+id/first"
+        android:icon="@mipmap/apple"
+        android:title="实时环境" />
+
+    <item
+        android:id="@+id/ssjt"
+        android:icon="@mipmap/apple"
+        android:title="实时交通" />
+    <item
         android:id="@+id/third"
         android:icon="@mipmap/apple"
         android:title="停车场" />
+
+    <item
+        android:id="@+id/wzfx"
+        android:icon="@mipmap/apple"
+        android:title="违章类型分析" />
     <item
         android:id="@+id/forth"
         android:icon="@mipmap/apple"
         android:title="创意" />
+    <item
+        android:id="@+id/grzx"
+        android:icon="@mipmap/apple"
+        android:title="个人中心" />
 </menu>
