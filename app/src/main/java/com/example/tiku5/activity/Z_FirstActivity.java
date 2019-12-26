@@ -58,6 +58,9 @@ public class Z_FirstActivity extends AppCompatActivity {
                     case R.id.second:
                         myClass = Z_HLDActivity.class;
                         break;
+                    case R.id.third:
+                        myClass = Z_TCCActivity.class;
+                        break;
                 }
                 startActivity(new Intent(Z_FirstActivity.this, myClass));
                 drawer.closeDrawers();

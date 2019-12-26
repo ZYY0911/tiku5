@@ -77,6 +77,9 @@
         <activity android:name=".activity.Z_SSHJActivity"></activity>
         <activity android:name=".activity.Z_HLDActivity"></activity>
         <activity android:name=".activity.S_WDYJActivity"/>
+        <activity android:name=".activity.Z_TCCActivity"></activity>
+        <activity android:name=".activity.Z_TCCXPActivity"></activity>
+        <activity android:name=".activity.Z_TCCLSJLActivity"></activity>
     </application>
 
 </manifest>
