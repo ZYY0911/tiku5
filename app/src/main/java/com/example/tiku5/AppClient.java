@@ -7,6 +7,7 @@ import android.preference.PreferenceManager;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.tiku5.bean.Ssjt;
 
 
 import java.util.ArrayList;
@@ -20,6 +21,11 @@ public class AppClient extends Application {
     private static RequestQueue requestQueue;
     private static SharedPreferences preferences;
 
+    public List<Ssjt> getMssjt() {
+        return mssjt;
+    }
+
+    private List<Ssjt> mssjt = new ArrayList<>();
 
     @Override
     public void onCreate() {
