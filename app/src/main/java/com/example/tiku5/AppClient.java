@@ -7,6 +7,7 @@ import android.preference.PreferenceManager;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.tiku5.bean.SSHJ;
 
 
 import java.util.ArrayList;
@@ -19,7 +20,11 @@ import java.util.List;
 public class AppClient extends Application {
     private static RequestQueue requestQueue;
     private static SharedPreferences preferences;
+    private List<SSHJ> sshjs = new ArrayList<>();
 
+    public List<SSHJ> getSshjs() {
+        return sshjs;
+    }
 
     @Override
     public void onCreate() {

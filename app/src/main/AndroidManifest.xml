@@ -61,12 +61,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activity.S_WZLXFXActivity">
+
+        </activity>
+        <activity android:name=".activity.Z_FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.Z_SSHJActivity"></activity>
     </application>
 
 </manifest>
