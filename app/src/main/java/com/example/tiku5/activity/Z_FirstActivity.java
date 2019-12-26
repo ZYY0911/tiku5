@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.tiku5.R;
+import com.google.gson.Gson;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -43,6 +44,9 @@ public class Z_FirstActivity extends AppCompatActivity {
     }
 
     private void initClick() {
+        /*if (navView.getMenu().getItem(1).getItemId()==R.id.second){
+            navView.getMenu().getItem(1).setVisible(false);
+        }*/
         navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
@@ -50,6 +54,9 @@ public class Z_FirstActivity extends AppCompatActivity {
                 switch (menuItem.getItemId()) {
                     case R.id.first:
                         myClass = Z_SSHJActivity.class;
+                        break;
+                    case R.id.second:
+                        myClass = Z_HLDActivity.class;
                         break;
                 }
                 startActivity(new Intent(Z_FirstActivity.this, myClass));

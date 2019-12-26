@@ -72,6 +72,7 @@
         </activity>
         <activity android:name=".activity.S_CXJGActivity"/>
         <activity android:name=".activity.Z_SSHJActivity"></activity>
+        <activity android:name=".activity.Z_HLDActivity"></activity>
     </application>
 
 </manifest>
