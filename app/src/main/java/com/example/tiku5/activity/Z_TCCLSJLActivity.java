@@ -154,11 +154,6 @@ public class Z_TCCLSJLActivity extends AppCompatActivity {
                             tccls2.add(tccl);
                         }
                     }
-
-                   /* if (date2.equals(date) || date3.equals(date1)) {
-                        tccls2.add(tccl);
-                    }*/
-
                 }
                 adapter = new TCCLSAdapter(this, R.layout.ls_item, tccls2);
                 lsList.setAdapter(adapter);

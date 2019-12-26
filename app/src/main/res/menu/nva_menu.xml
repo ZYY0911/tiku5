@@ -15,4 +15,8 @@
         android:id="@+id/third"
         android:icon="@mipmap/apple"
         android:title="停车场" />
+    <item
+        android:id="@+id/forth"
+        android:icon="@mipmap/apple"
+        android:title="创意" />
 </menu>
