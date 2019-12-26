@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bai1"
+        />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/luxian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="巨龙大道"
+        android:textSize="30dp"
+        android:textColor="#000"
+        />
+</LinearLayout>

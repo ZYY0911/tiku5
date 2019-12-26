@@ -1,6 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <include layout="@layout/head"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ssjtbk1"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="410dp"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ssjtbk2"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="440dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bai"
+            android:layout_marginTop="218dp"
+            android:layout_marginLeft="450dp"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="#8897A5"
+            android:id="@+id/shuru"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_marginTop="217dp"
+            android:layout_marginLeft="510dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:id="@+id/sosuo"
+            android:layout_marginTop="215dp"
+            android:layout_marginLeft="850dp"
+            android:text="搜索"
+            android:textSize="20dp"
+            android:background="@drawable/ssjtbk3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索历史"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="420dp"
+            />
+        <View
+            android:layout_width="500dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="410dp"
+            android:layout_marginTop="350dp"
+            android:background="#000"
+            />
+        <ListView
+            android:layout_width="500dp"
+            android:layout_marginLeft="410dp"
+            android:layout_marginTop="360dp"
+            android:id="@+id/listView"
+            android:layout_height="200dp">
+
+        </ListView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清空搜索历史"
+            android:id="@+id/qk"
+            android:textSize="30dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginLeft="650dp"
+            />
+    </RelativeLayout>
+</LinearLayout>

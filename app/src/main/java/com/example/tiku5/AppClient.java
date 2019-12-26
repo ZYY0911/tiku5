@@ -7,6 +7,7 @@ import android.preference.PreferenceManager;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.tiku5.bean.Ssjt;
 import com.example.tiku5.bean.SSHJ;
 
 
@@ -22,6 +23,11 @@ public class AppClient extends Application {
     private static SharedPreferences preferences;
     private List<SSHJ> sshjs = new ArrayList<>();
 
+    public List<Ssjt> getMssjt() {
+        return mssjt;
+    }
+
+    private List<Ssjt> mssjt = new ArrayList<>();
     public List<SSHJ> getSshjs() {
         return sshjs;
     }
