@@ -98,7 +98,7 @@ public class S_LXDTActivity extends AppCompatActivity {
             }
         });
 
-         popupWindow  =new PopupWindow(listLayer, LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        popupWindow  =new PopupWindow(listLayer, LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         popupWindow.setBackgroundDrawable(new BitmapDrawable());
         popupWindow.setOutsideTouchable(true);
         popupWindow.setAnimationStyle(R.style.AlpahAnimation);

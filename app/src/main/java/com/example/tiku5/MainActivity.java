@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.tiku5.activity.S_YJFKActivity;
+import com.example.tiku5.activity.Z_FirstActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     Handler handler  =new Handler(new Handler.Callback() {
         @Override
         public boolean handleMessage(Message message) {
-            startActivity(new Intent(MainActivity.this, S_YJFKActivity.class));
+            startActivity(new Intent(MainActivity.this, Z_FirstActivity.class));
             finish();
             return false;
         }
