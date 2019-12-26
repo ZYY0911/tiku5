@@ -60,19 +60,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activity.S_LXDTActivity"/>
         <activity android:name=".activity.S_WZLXFXActivity">
 
         </activity>
-        <activity android:name=".activity.Z_FirstActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.Z_FirstActivity"></activity>
+        <activity android:name=".activity.S_YJFKActivity"/>
         <activity android:name=".activity.S_CXJGActivity"/>
         <activity android:name=".activity.Z_SSHJActivity"></activity>
         <activity android:name=".activity.Z_HLDActivity"></activity>
+        <activity android:name=".activity.S_WDYJActivity"/>
     </application>
 
 </manifest>
