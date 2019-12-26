@@ -151,7 +151,7 @@ public class S_SSJTActivity extends AppCompatActivity {
         title1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+                startActivity(new Intent(S_SSJTActivity.this,S_CXJGActivity.class));
             }
         });
     }
