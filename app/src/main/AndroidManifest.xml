@@ -61,6 +61,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activity.S_LXDTActivity">
+        <activity android:name=".activity.S_WZLXFXActivity">
+
+        </activity>
+        <activity android:name=".activity.Z_FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -68,6 +72,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.S_CXJGActivity"/>
+        <activity android:name=".activity.Z_SSHJActivity"></activity>
     </application>
 
 </manifest>
