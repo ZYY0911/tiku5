@@ -37,7 +37,6 @@
             android:gravity="center"
             android:layout_marginRight="20dp"
             android:id="@+id/title1"
-            android:text="XXX"
             android:textColor="#fff"
             android:textSize="25dp"
             />
