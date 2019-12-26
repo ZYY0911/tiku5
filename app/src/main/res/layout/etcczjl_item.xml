@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018.2.2 "
+                android:id="@+id/shijian1"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="星期三"
+                android:textStyle="bold"
+                android:id="@+id/xingqi"
+                android:textSize="30dp"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="220dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="辽A10001"
+                android:id="@+id/chongzhiren"
+                android:textSize="30dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车主：张三"
+                android:id="@+id/chepaihao"
+                android:textSize="30dp"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="余额：200元"
+            android:id="@+id/chongzhi"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="600dp"
+            android:textSize="30dp"
+            android:textColor="#000"
+            />
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="920dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="充值时间"
+                android:textSize="30dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015.2.2. 15:00"
+                android:id="@+id/shijian2"
+                android:textSize="30dp"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#858282"
+        />
+</LinearLayout>

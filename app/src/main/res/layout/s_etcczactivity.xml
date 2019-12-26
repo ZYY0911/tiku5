@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/head"/>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="120dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车辆编号："
+            android:textSize="30dp"
+            android:textColor="#000"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:id="@+id/bianhao"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/biankuang"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="120dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车  牌  号："
+            android:textSize="30dp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chepai"
+            android:text="车  牌  号："
+            android:textSize="30dp"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="120dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值金额："
+            android:textSize="30dp"
+            android:textColor="#000"
+            />
+       <TextView
+           android:layout_width="120dp"
+           android:layout_height="55dp"
+           android:textColor="#000"
+           android:gravity="center"
+           android:layout_marginLeft="10dp"
+           android:id="@+id/shi"
+           android:text="10元"
+           android:textSize="30dp"
+           android:background="@drawable/biankuang2"
+           />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/wushi"
+            android:text="50元"
+            android:textSize="30dp"
+            android:background="@drawable/biankuang2"
+            />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_marginLeft="70dp"
+            android:text="100元"
+            android:textSize="30dp"
+            android:id="@+id/yibai"
+            android:background="@drawable/biankuang2"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:id="@+id/shuru"
+            android:inputType="number"
+            android:singleLine="true"
+            android:hint="1-999"
+            android:layout_marginLeft="282dp"
+            android:background="@drawable/biankuang"
+            />
+        <TextView
+            android:layout_marginLeft="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元"
+            android:textSize="30dp"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:id="@+id/chonghzi"
+            android:text="充值"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:background="@drawable/biankuang1"
+            />
+    </LinearLayout>
+</LinearLayout>

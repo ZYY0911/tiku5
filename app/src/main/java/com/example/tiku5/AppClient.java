@@ -12,6 +12,8 @@ import com.example.tiku5.bean.SSHJ;
 import com.example.tiku5.bean.Wdyj;
 
 
+import org.litepal.LitePal;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,6 +43,7 @@ public class AppClient extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        LitePal.initialize(this);
 
         requestQueue= Volley.newRequestQueue(this);
         preferences= PreferenceManager.getDefaultSharedPreferences(this);
@@ -89,7 +92,7 @@ public class AppClient extends Application {
     }
 
     public static String getYz(){
-        return preferences.getString("Yz","0");
+        return preferences.getString("Yz","");
     }
 
     public static void setSex(String Sex){

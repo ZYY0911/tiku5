@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">tiku5</string>
+    <string name="name">input name</string>
+    <string name="pwd">input password</string>
+    <string name="xinzhanghu">new user</string>
+    <string name="zhmima">password</string>
+    <string name="yuyan">yuyan</string>
+    <string name="delu">login</string>
+</resources>

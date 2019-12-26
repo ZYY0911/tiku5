@@ -64,17 +64,23 @@
         <activity android:name=".activity.S_WZLXFXActivity">
 
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.S_DLActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.S_ZJMActivity"/>
+        <activity android:name=".activity.S_ZHMMActivity"/>
+        <activity android:name=".activity.S_ZCActivity"/>
+        <activity android:name=".activity.S_ETCYEActivity"/>
         <activity android:name=".activity.S_YJFKActivity"/>
         <activity android:name=".activity.S_CXJGActivity"/>
         <activity android:name=".activity.Z_SSHJActivity"></activity>
         <activity android:name=".activity.S_WDYJActivity"/>
+        <activity android:name=".activity.S_ETCCZActivity"/>
+        <activity android:name=".activity.S_ETCCZJLActivity"/>
     </application>
 
 </manifest>

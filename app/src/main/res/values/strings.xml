@@ -1,8 +1,18 @@
 <resources>
     <string name="app_name">tiku5</string>
+
+    <string name="name">请输入用户名</string>
+    <string name="pwd">请输入密码</string>
+    <string name="xinzhanghu">注册新账户</string>
+    <string name="zhmima">找回密码</string>
+    <string name="yuyan">语言</string>
+    <string name="delu">登录</string>
+
     <string name="layer_navi">导航视图</string>
     <string name="layer_night">夜景视图</string>
     <string name="layer_normal">白昼视图</string>
     <string name="layer_satellite">卫星视图</string>
     <string name="layer_traffic">交通视图</string>
+
+
 </resources>
