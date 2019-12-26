@@ -17,7 +17,7 @@ import org.json.JSONObject;
  */
 
 public class VolleyTo extends Thread {
-    private String Url = "http://"+ AppClient.getIp()+":8080/traffic/";
+    private String Url = "http://"+ AppClient.getIp()+":"+AppClient.getDk()+"/traffic/";
     private JSONObject jsonObject = new JSONObject();
     private int Time;
     private boolean isLoop;

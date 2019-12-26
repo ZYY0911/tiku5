@@ -9,6 +9,7 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.tiku5.bean.Ssjt;
 import com.example.tiku5.bean.SSHJ;
+import com.example.tiku5.bean.Wdyj;
 
 
 import java.util.ArrayList;
@@ -23,6 +24,11 @@ public class AppClient extends Application {
     private static SharedPreferences preferences;
     private List<SSHJ> sshjs = new ArrayList<>();
 
+    public List<Wdyj> getMwdyj() {
+        return mwdyj;
+    }
+
+    private List<Wdyj> mwdyj = new ArrayList<>();
     public List<Ssjt> getMssjt() {
         return mssjt;
     }
@@ -57,6 +63,16 @@ public class AppClient extends Application {
     public static void setIp(String ip){
         SharedPreferences.Editor editor=preferences.edit();
         editor.putString("ip",ip);
+        editor.commit();
+    }
+
+    public static String getDk(){
+        return preferences.getString("Dk","8080");
+    }
+
+    public static void setDk(String Dk){
+        SharedPreferences.Editor editor=preferences.edit();
+        editor.putString("Dk",Dk);
         editor.commit();
     }
 
